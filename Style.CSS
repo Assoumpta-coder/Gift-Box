@@ -1,0 +1,14 @@
+.hide {
+display: none;
+}
+#gift-box {
+font-size: 50px;
+}
+#click-btn {
+    border-radius: 5px;
+    width:200px;
+    height:50px;
+    background-color: rgb(139, 105, 60);
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIFT BOX</title>
+    <link rel="stylesheet" href="Style.CSS">
+</head>
+<body id="outer">
+    <div id="gift-box" class="hide"><img src="Gift box.jpeg" alt="gift image"></im></div>
+    <button id="click-btn">Box Reveal</button>
+    <script>
+       const giftBox = document.getElementById('gift-box')
+       const giftButton = document.getElementById('click-btn')
+       giftButton.addEventListener('click', function() {
+        giftBox.classList.remove('hide')
+       })
+       const secondCondition = document.getElementById('outer');
+       secondCondition.addEventListener('click', function() {
+        giftBox.classList.remove('hide')
+       })
+       
+    </script>
+</body>
+</html>
